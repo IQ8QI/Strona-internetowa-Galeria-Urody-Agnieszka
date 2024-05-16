@@ -1,0 +1,60 @@
+* {
+    background-color: #FEFAE0;
+    color: #283618;
+    text-align: center;
+    font-size: 36px;
+    margin: auto;
+}
+
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div div {
+    background-color: #606C38;
+    width: 80%;
+}
+
+#title {
+    top: 45%;
+    align-self: center;
+    font-size: 24px;
+    width: fit-content;
+    height: fit-content;
+}
+
+#central_column {
+    align-items: center;
+}
+
+#row-01 {
+    background-image: url("../img/las\ 1.jpg");
+    min-height: 700px;
+}
+
+#row-02 {
+    height: fit-content;
+    background-color: #606C38;
+}
+
+#row-03 {
+    background-image: url("../img/las\ 2.jpg");
+    min-height: 700px;
+}
+
+/*
+Light green 606C38
+
+Dark Green 283618
+
+Light FEFAE0
+
+Light brown DDA15E
+
+Dark brown BC6C25
+
+*/
+
