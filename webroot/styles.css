@@ -1,9 +1,13 @@
 * {
-    background-color: #FEFAE0;
+    background-color: #283618;
     color: #283618;
     text-align: center;
     font-size: 36px;
     margin: auto;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 .parallax {
@@ -16,12 +20,13 @@
 div div {
     background-color: #606C38;
     width: 80%;
+    border: 3px solid #BC6C25;
 }
 
 #title {
-    top: 45%;
-    align-self: center;
-    font-size: 24px;
+    position: relative;
+    top: 50%;
+    font-size: 48px;
     width: fit-content;
     height: fit-content;
 }
@@ -43,6 +48,31 @@ div div {
 #row-03 {
     background-image: url("../img/las\ 2.jpg");
     min-height: 700px;
+}
+
+#row-05 {
+    background-image: url("../img/las\ 1.jpg");
+    min-height: 700px;
+}
+
+#side-panel {
+    position: fixed;
+    width: fit-content;
+    height: fit-content;
+    left: 2%;
+    top: 50%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li button {
+    background-color: #606C38;
+    border-color: #BC6C25;
+    color: #283618;
 }
 
 /*
