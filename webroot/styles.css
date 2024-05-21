@@ -25,7 +25,8 @@ div div {
 
 #title {
     position: relative;
-    top: 50%;
+    margin-top: 40%;
+    top: 40%;
     font-size: 48px;
     width: fit-content;
     height: fit-content;
